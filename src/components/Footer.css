@@ -14,7 +14,6 @@
 .inner_footer_div{
     height:595px;
     width:960px;
-    border:1px solid black;
     margin:0 195px 0 195px
 }
 .footer_logo{
@@ -23,7 +22,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:1px solid black
 }
 .social_icon{
     display: flex;
@@ -34,7 +32,6 @@
     display:flex;
     height:453px;
     width:960px;
-    border:1px solid black;
     border-top: 1px solid #DDDDDD;
     border-bottom:1px solid #DDDDDD ;
     margin:10px 0 0 0
@@ -59,4 +56,27 @@
 }
 .border{
     border-right: 1px solid #DDDDDD;
+}
+.network18{
+    display: flex;
+    gap:15px;
+    height: 39px;
+    width:960px;
+    margin:0 0 10px 0;
+    border-bottom: 1px solid #DDDDDD;
+    padding:8px;
+}
+.black{
+    color:black;
+    font-weight: 800;
+}
+.copyright{
+    height:22px;
+    width:960px;
+    color:#333333
+}
+.terms{
+    height:22px;
+    width:960px;
+    color:black
 }

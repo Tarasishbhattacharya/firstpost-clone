@@ -1,0 +1,153 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.sidebar_cont{
+    height:13400px;
+    width:300px;
+    margin-left: 20px;
+}
+.sidebar_cont img{
+    height:250px;
+    width:300px;
+    margin-bottom: 10px;
+}
+.subscribe{
+    height:233px;
+    width:300px;
+    border:1px solid #DEDEDE;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+}
+.inner_subscribe{
+    height:211px;
+    width:278px;
+}
+.heading{
+    height:46px;
+    width:278px;
+    text-align: left;
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.paragraph{
+    height:45px;
+    width: 278px;
+    font-size: 13px;
+    color: #A7A4A4;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.email_address{
+    height:68px;
+    width:266px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+.email_address input{
+    height:33px;
+    width: 266px;
+    border:1px solid #abb0b2;
+    padding: 8px 0 8px 0;
+
+}
+.subscribe_btn{
+    height:32px;
+    width:110px;
+    margin:0 5px 10px 0;
+    padding:0 22px 0 22px;
+    color:white;
+    background-color: #FAD65F;
+    font-size: 15px;
+    vertical-align: top;
+    white-space: nowrap;
+   margin-left: -160px;
+   outline:none;
+   border:none
+}
+.most_read_title{
+    color:black;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+.most_read{
+    height:1267px;
+    width:300px;
+    border-top: 1px solid #DEDEDE;
+    border-left:1px solid #DEDEDE ;
+    border-right: 1px solid #DEDEDE;
+    border-bottom: 4PX solid black;
+}
+.first{
+    height:232px;
+    width:298px;
+}
+.second{
+    height:272px;
+    width:298px;
+}
+.third{
+    height:272px;
+    width:298px;
+}
+.fourth{
+    height:232px;
+    width:298px;
+}
+.fifth{
+    height:174px;
+    width:298px;
+}
+.border{
+  border-bottom: 1px solid #D5D5D5;
+  padding:15px 15px 15px 45px;
+}
+.logo img{
+    height:700px;
+    width:300px;
+    margin-bottom: 30px;
+}
+.second_logo{
+    height:250px;
+    width:300px
+}
+.promoted_content{
+    display:flex;
+    height:31px;
+    width:300px;
+    margin:8px 0 12px 0;
+    justify-content: space-around;
+}
+.first div{
+    height:201px;
+    width:248px;
+}
+.row{
+    height:88px;
+    width:223px;
+    margin:0 0 5px 0;
+}
+.col{
+    height:108px;
+    width:248px
+}
+.single_entity{
+    height:261px;
+    width:300px;
+    margin-bottom: 5px;
+}
+.single_entity img{
+    height:184px;
+    width:300px
+}
+.single_entity p{
+    height:56px;
+    width:211px;
+    text-align: left;
+}

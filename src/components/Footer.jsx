@@ -56,9 +56,29 @@ export const Footer=()=>{
                   <li>coronavirus</li>
               </ul>
             </div>
-            <div className="section"></div>
+             <div className="section">
+            <p>Tools</p>
+              <ul>
+                  <li>Rss feeds</li>
+              </ul>
+              <p>Apps</p>
+              <ul>
+                  <li>Ios</li>
+                  <li>Android</li>
+              </ul>
+            </div>
        </div>
-           
+           <div className="network18">
+             <div className="black">Network18 sites &nbsp;&nbsp;&nbsp;&nbsp;<span>&gt;</span></div>
+             <div>Money control</div>
+             <div>News 18</div>
+             <div>CNBC TV18</div>
+             <div>One Drive</div>
+             <div>Forbes India</div>
+             <div>TopperLearning</div>
+           </div>
+           <div className="copyright">Copyright © 2022.Firstpost- All Rights Reserved.</div>
+           <div className="terms">Terms of use|PrivacyCookie |Policy</div>
         </div>
     </div>
     )

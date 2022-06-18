@@ -1,8 +1,10 @@
 import "./Navbar.css"
 import { FaBars,FaFacebookSquare,FaInstagram,FaTwitterSquare,FaYoutubeSquare,FaSearch} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Navbar=()=>{
     return (
+        <>
         <div className="nav_cont">
          <div className="navitem">
          <div>
@@ -17,16 +19,22 @@ export const Navbar=()=>{
            <div className="sidediv">|</div>
            <div><FaSearch style={{color: 'white',fontSize: '20px',marginLeft:'40px'}}/></div>
          </div>
-         <div className="second_navcont">
-             <div className="second_navitem">
+         <div className="second_navcont ">
+             <div className="second_navitem fixed">
                <div className="newsitem">
-                   <p>Health</p>
+               <Link to="/health">
+                   <p className="single_newsitem">Health</p>
+                   </Link>
                </div>
                <div  className="newsitem">
+                   <Link to="/india">
                    <p className="single_newsitem">India</p>
+                   </Link>
                </div>
                <div  className="newsitem">
+               <Link to="/world">
                    <p className="single_newsitem">World</p>
+                   </Link>
                </div>
                <div  className="newsitem">
                    <p className="single_newsitem">Politics</p>
@@ -54,6 +62,12 @@ export const Navbar=()=>{
         </div>
            
          </div>
+         
         </div>
+        <div className="advertise">
+            <img src="https://tpc.googlesyndication.com/simgad/10002883512223093812" alt="img"/>
+        </div>
+        </>
+        
     )
 }

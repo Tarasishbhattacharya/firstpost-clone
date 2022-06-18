@@ -1,0 +1,44 @@
+
+
+.singlenews{
+    height:558px;
+    width:640px;
+    margin:0 0 32px 0;
+    display:block
+}
+.singlenews img{
+    height:362px;
+    width:640px;
+}
+.info{
+    height:224px;
+    width:624px;
+    padding:10px;
+    margin:-28px 0 0 16px;
+    background-color: white;
+    position: relative;
+
+}
+.info h2{
+    height:81px;
+    width:604px;
+    color:black;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+.info p{
+    height:80px;
+    width:604px;
+    margin:10px 0 0 0;
+    color:#333333;
+    text-align: left;
+}
+.news{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    height:7700px;
+    width:960px;
+}
